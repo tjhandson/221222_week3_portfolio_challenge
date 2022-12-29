@@ -7,26 +7,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/style.css" rel='stylesheet' type='text/css'>
     <title>Thomas Hands Portfolio</title>
 </head>
-<header>
+<header class="header container-fuild">
     <!-- A navigation bar: A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own. -->
     <!-- Include links that are applicable to your portfolio, Links should navigate to the appropriate sections -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./images/Thomas Hands-logos.jpeg" width="80" height="80" class="d-inline-block align-top"
+                alt="Thomas Hands Logo">
+            <h1>Thomas Hands Portfolio</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ml-auto">
+                <li class=" nav-item active">
+                    <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
 <main>
-    <section class="hero">
+    <section class="hero container-fuild">
         <!-- A jumbotron featuring your picture, your name, and any other information you'd like to include. -->
+        <div class=" jumbotron row">
+            <div class="col-sm-4 Portrait">
+                <img src="./images/portrait.jpeg" alt="Portrait of Thomas Hands" class="img-fluid">
+            </div>
+            <div class="col-sm-8 hero-col-2">
+                <h1 class="display-4">Thomas Hands</h1>
+                <p class="lead">Fresher than a new born foul to the world of coding</p>
+                <hr class="my-4">
+                <p class="secondary"> But hitting the ground running and ready to Learn</p>
+            </div>
+        </div>
     </section>
     <section class="work">
         <!-- A work section: A section displaying your work in grid. A section displaying your work in grid. -->
         <!-- If you need to use placeholder image use placehold.coLinks to an external site. -->
         <!-- Use Bootstrap cards for each project. The description should give a brief overview of the work. -->
+        <div class="container-fuild">
+            <div class="row">
+                <div class="col-sm-4 card-1">
+                    <div class="card mb-3">
+                        <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mb-3">
+                        <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mb-3">
+                        <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 card-1">
+                <div class="card mb-3">
+                    <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mb-3">
+                    <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mb-3">
+                    <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
     <section class="skills">
         <!-- List out the skills you expect to learn from the bootcamp. -->
     </section>
-    <section class="About-Contact Me">
+    <section class="About-Contact-Me">
         <!-- An About Me section in the same row. -->
         <div id="about me">
 

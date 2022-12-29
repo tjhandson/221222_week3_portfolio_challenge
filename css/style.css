@@ -6,4 +6,87 @@
 
 :root {
     --red: #E74E35;
+    --white: #fffdfd;
+}
+
+/* Navigation Header */
+.header {
+    background-color: var(--red);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+
+}
+
+header a {
+    color: var(--white) !important;
+
+}
+
+/* Slow interaction */
+header a:hover {
+    color: var(--red) !important;
+    transition: 5s;
+
+}
+
+.navbar-brand h1 {
+    font-size: medium;
+
+}
+
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 35vh;
+    background-color: var(--white) !important;
+}
+
+.hero {
+    background-color: var(--white) !important;
+    display: block;
+    overflow: hidden;
+}
+
+.Portrait img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+
+}
+
+.hero-col-2 h1 {
+    padding-top: 5%;
+}
+
+.work img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+
+.work {
+    display: block;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .navbar-brand h1 {
+        display: none;
+
+    }
+
+    .hero-col-2 h1 {
+        padding-top: 5%;
+        font-size: medium;
+    }
+
+    .hero-col-2 p {
+        font-size: small;
+    }
+
+
 }
