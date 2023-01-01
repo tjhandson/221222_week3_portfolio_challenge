@@ -8,59 +8,109 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/f7d96448d4.js" crossorigin="anonymous"></script>
     <title>Thomas Hands Portfolio</title>
 </head>
-<header class="header container-fuild">
-    <!-- A navigation bar: A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own. -->
-    <!-- Include links that are applicable to your portfolio, Links should navigate to the appropriate sections -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="./images/Thomas Hands-logos.jpeg" width="80" height="80" class="d-inline-block align-top"
-                alt="Thomas Hands Logo">
-            <h1>Thomas Hands Portfolio</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav  ml-auto">
-                <li class=" nav-item active">
-                    <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about me">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact me">Contact Me</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<main>
-    <section class="hero container-fuild">
-        <!-- A jumbotron featuring your picture, your name, and any other information you'd like to include. -->
-        <div class=" jumbotron row">
-            <div class="col-sm-4 Portrait">
-                <img src="./images/portrait.jpeg" alt="Portrait of Thomas Hands" class="img-fluid">
+
+<body>
+    <header class="header container-fuild">
+        <!-- A navigation bar: A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own. -->
+        <!-- Include links that are applicable to your portfolio, Links should navigate to the appropriate sections -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#navbarNav">
+                <img src="./images/Thomas Hands-logos.jpeg" width="80" height="80" class="d-inline-block align-top"
+                    alt="Thomas Hands Logo">
+                <h1>Thomas Hands Portfolio</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ml-auto">
+                    <li class=" nav-item active">
+                        <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact me">Contact Me</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-sm-8 hero-col-2">
-                <h1 class="display-4">Thomas Hands</h1>
-                <p class="lead">Fresher than a new born foul to the world of coding</p>
-                <hr class="my-4">
-                <p class="secondary"> But hitting the ground running and ready to Learn</p>
+        </nav>
+    </header>
+    <main>
+        <!-- Nav Bar -->
+        <section class="hero container-fuild">
+            <!-- A jumbotron featuring your picture, your name, and any other information you'd like to include. -->
+            <div class=" jumbotron row hero-banner">
+                <div class="col-sm-4 Portrait">
+                    <h2 class="hero-banner-title">Thomas Hands</h2>
+                    <img src="./images/portrait.jpeg" alt="Portrait of Thomas Hands" class="img-fluid">
+                    <div class="hero-banner-text">
+                        <p class="lead">Fresher than a new born foul to the world of coding</p>
+                        <p class="secondary"> But hitting the ground running and ready to Learn</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 hero-col-2 hero-second-column">
+                    <h1 class="display-4">Thomas Hands</h1>
+                    <p class="lead">Fresher than a new born foul to the world of coding</p>
+                    <hr class="my-4">
+                    <p class="secondary"> But hitting the ground running and ready to Learn</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="work">
-        <!-- A work section: A section displaying your work in grid. A section displaying your work in grid. -->
-        <!-- If you need to use placeholder image use placehold.coLinks to an external site. -->
-        <!-- Use Bootstrap cards for each project. The description should give a brief overview of the work. -->
-        <div class="container-fuild">
+        </section>
+        <!-- Work Card Section -->
+        <section class="work">
+            <!-- A work section: A section displaying your work in grid. A section displaying your work in grid. -->
+            <!-- If you need to use placeholder image use placehold.coLinks to an external site. -->
+            <!-- Use Bootstrap cards for each project. The description should give a brief overview of the work. -->
+            <div class="container-fuild">
+                <h2 class="mx-auto" id="work">Work</h2>
+                <div class="row">
+                    <div class="col-sm-4 card-1">
+                        <div class="card mb-3">
+                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Placeholder</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card mb-3">
+                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Placeholder</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card mb-3">
+                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-4 card-1">
                     <div class="card mb-3">
@@ -89,7 +139,7 @@
                     <div class="card mb-3">
                         <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Placeholder</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural
                                 lead-in to
                                 additional content. This content is a little bit longer.</p>
@@ -98,66 +148,159 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 card-1">
-                <div class="card mb-3">
-                    <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+        </section>
+        <!-- Skills Section -->
+        <section class="skills">
+            <!-- List out the skills you expect to learn from the bootcamp. -->
+            <h2 id="skills">Skills</h2>
+            <h3>Across the bootcamp course I am looking to gain the skills in these key areas</h3>
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                HTML
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid.
+                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                            heard
+                            of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                CSS
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid.
+                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                            heard
+                            of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                JAVASCRIPT
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid.
+                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                            heard
+                            of them accusamus labore sustainable VHS.
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card mb-3">
-                    <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural
-                            lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </section>
+        <!-- About Me and Contact Me Section -->
+        <section class="About-Contact-Me">
+            <!-- An About Me section in the same row. -->
+            <div id="about me">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">About Me</h1>
+                        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
+                            parent.</p>
+                    </div>
+                    <p>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                            aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#multiCollapseExample2" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Toggle second element</button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target=".multi-collapse" aria-expanded="false"
+                            aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                    cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                    cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
-            <div class="col-sm-4">
-                <div class="card mb-3">
-                    <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural
-                            lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
+            <div class="contact me">
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <!-- All hyperlinks should have a hover effect. All buttons should display a box shadow upon hover. -->
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-secondary" href="mailto:thomjhands@gmail.com"><i
+                        class="fa-sharp fa-solid fa-envelope"></i> </button>
+                <button type="button" class="btn btn-secondary" href="https://github.com/tjhandson"></button>>2</button>
+                <button type="button" class="btn btn-secondary" href="www.linkedin.com/in/thomas-hands">3</button>
             </div>
         </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-    </section>
-    <section class="skills">
-        <!-- List out the skills you expect to learn from the bootcamp. -->
-    </section>
-    <section class="About-Contact-Me">
-        <!-- An About Me section in the same row. -->
-        <div id="about me">
-
-        </div>
-        <div class="contact me">
-
-        </div>
-    </section>
-
-</main>
-<footer class="footer">
-    <!-- All hyperlinks should have a hover effect. All buttons should display a box shadow upon hover. -->
-
-</footer>
-
-<body>
 
 </body>
 

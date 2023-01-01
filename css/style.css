@@ -7,6 +7,7 @@
 :root {
     --red: #E74E35;
     --white: #fffdfd;
+    --hover-red: rgba(231, 78, 53, 0.6)
 }
 
 /* Navigation Header */
@@ -25,7 +26,7 @@ header a {
 
 }
 
-/* Slow interaction */
+/* Slow Transition on hover interaction */
 header a:hover {
     color: var(--red) !important;
     transition: 5s;
@@ -37,12 +38,21 @@ header a:hover {
 
 }
 
-.jumbotron {
+/* Hero Banner Section */
+.hero-banner-title {
+    display: none;
+}
+
+.hero-banner {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
     height: 35vh;
     background-color: var(--white) !important;
+}
+
+.hero-banner-text {
+    display: none;
 }
 
 .hero {
@@ -57,11 +67,22 @@ header a:hover {
     object-position: center;
     height: 100%;
     max-height: 38vh;
+    padding: 0;
+    margin: 0;
 
 }
 
 .hero-col-2 h1 {
     padding-top: 5%;
+}
+
+/* Work Section */
+
+.work h2 {
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
 }
 
 .work img {
@@ -71,19 +92,49 @@ header a:hover {
     max-height: 28vh;
 }
 
+.work img:hover {
+    background-color: var(--hover-red);
+    transition: 2s;
+
+}
+
 .work {
     display: block;
-    margin-right: 1vw;
-    margin-left: 1vw;
+    background-image: url(../images/code.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.card-header {
+    background-color: var(--red);
+}
+
+.card-header button {
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.card-header button:hover {
+    color: var(--white) !important;
+    text-decoration: none !important;
+
+}
+
+/* Skills Section */
 
 /* media query */
 @media only screen and (max-width: 600px) {
+
+    /* Navigation Header */
+
     .navbar-brand h1 {
+        /* Removal of Header Title */
         display: none;
 
     }
 
+    /* Hero Banner Section */
     .hero-col-2 h1 {
         padding-top: 5%;
         font-size: medium;
@@ -92,6 +143,30 @@ header a:hover {
     .hero-col-2 p {
         font-size: small;
     }
+
+    .hero-second-column {
+        display: none;
+    }
+
+    .hero-banner {
+        height: auto;
+    }
+
+    .hero-banner-title {
+        display: block;
+    }
+
+    .Portrait img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+
+    .hero-banner-text {
+        display: inline;
+    }
+
+
 
 
 }
