@@ -121,7 +121,12 @@ header a:hover {
 
 }
 
+.contact-me {
+    margin: 12%;
+}
+
 /* Skills Section */
+
 
 /* media query */
 @media only screen and (max-width: 600px) {
