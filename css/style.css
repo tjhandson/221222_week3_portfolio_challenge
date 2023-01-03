@@ -7,7 +7,21 @@
 :root {
     --red: #E74E35;
     --white: #fffdfd;
-    --hover-red: rgba(231, 78, 53, 0.6)
+    --hover-red: rgba(231, 78, 53, 0.6);
+    --dark-blue: #1a1d47;
+    --hover-white: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.subheading {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 1%;
+    font-weight: normal;
 }
 
 /* Navigation Header */
@@ -48,7 +62,9 @@ header a:hover {
     padding-bottom: 0;
     padding-left: 0;
     height: 35vh;
-    background-color: var(--white) !important;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(231, 78, 53, 1) 4%, rgba(26, 29, 71, 1) 95%) !important;
+    border-radius: 0rem;
 }
 
 .hero-banner-text {
@@ -56,19 +72,19 @@ header a:hover {
 }
 
 .hero {
-    background-color: var(--white) !important;
     display: block;
     overflow: hidden;
-    margin: 20px;
+    margin: 0px;
 }
 
+
 .Portrait img {
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
-    height: 100%;
-    max-height: 38vh;
+    max-height: 34vh;
     padding: 0;
-    margin: 0;
+    margin-left: 1%;
+    border-radius: 5px;
 
 }
 
@@ -77,12 +93,8 @@ header a:hover {
 }
 
 /* Work Section */
-
 .work h2 {
     color: var(--white);
-    display: flex;
-    justify-content: center;
-    padding: 1%;
 }
 
 .work img {
@@ -95,7 +107,6 @@ header a:hover {
 .work img:hover {
     background-color: var(--hover-red);
     transition: 2s;
-
 }
 
 .work {
@@ -105,8 +116,18 @@ header a:hover {
     background-size: cover;
 }
 
+.work-button-disabled {
+    color: var(--red) !important;
+    background-color: var(--hover-red) !important;
+    border-color: var(--hover-red) !important;
+}
+
+
+
+/* Skills Section */
+
 .card-header {
-    background-color: var(--red);
+    background-color: var(--dark-blue);
 }
 
 .card-header button {
@@ -121,15 +142,74 @@ header a:hover {
 
 }
 
-.contact-me {
-    margin: 12%;
+/* About Me Section */
+
+.About-Me {
+    margin: 0%;
 }
 
-/* Skills Section */
+.About-Contact-Me h3 {
+    display: flex;
+    justify-content: center;
+}
 
+.contact-me-btn,
+.work-button {
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 5px;
+    border-color: var(--red);
+}
+
+.contact-me-btn:hover,
+.work-button:hover {
+    color: var(--red);
+    background-color: var(--hover-red);
+    border-color: var(--hover-red);
+    transition: 1s;
+    box-shadow: 0 2px 2px 0 var(--hover-red), 0 2px 2 px 0 var(--hover-red);
+}
+
+.button-text {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.contact-me button {
+    max-width: 120px;
+    margin-right: 10%;
+}
+
+
+
+/* Footer Section */
+.footer {
+    background-color: var(--red);
+}
+
+.footer h4 {
+    color: var(--white);
+}
+
+.footer-btn {
+    display: inline;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 2px;
+    border-color: var(--red);
+}
+
+.footer-btn:hover {
+    box-shadow: 0 2px 5px 0 var(--white), 0 2px 10px 0 var(--white);
+    color: var(--red);
+    background-color: var(--hover-white);
+    border-color: var(--hover-white);
+    transition: 1s;
+}
 
 /* media query */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 575px) {
 
     /* Navigation Header */
 
@@ -159,6 +239,7 @@ header a:hover {
 
     .hero-banner-title {
         display: block;
+        color: var(--white);
     }
 
     .Portrait img {
@@ -169,6 +250,7 @@ header a:hover {
 
     .hero-banner-text {
         display: inline;
+        color: var(--white);
     }
 
 
