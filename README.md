@@ -27,7 +27,7 @@ Visual Studio Code is a source-code editor (there are others available), The dow
 This is a public repo and available to be run on either a webrowser or locally. 
 
 # Run on Wb browser
-Follow the link on: https://tjhandson.github.io/221209_code_reactor-project/
+Follow the link on: https://tjhandson.github.io/Bootstrap-Portfolio/
 
 
 # Run Locally 
