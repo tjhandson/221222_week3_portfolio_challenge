@@ -9,15 +9,18 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css" rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/f7d96448d4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <title>Thomas Hands Portfolio</title>
 </head>
 
 <body>
-    <header class="header container-fuild">
+    <header class="header container-fuild" id="header">
         <!-- A navigation bar: A navigation menu at the top. Feel free to use Bootstrap's navbar or create your own. -->
         <!-- Include links that are applicable to your portfolio, Links should navigate to the appropriate sections -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#navbarNav">
+            <a class="navbar-brand" href="#header">
                 <img src="./images/Thomas Hands-logos.jpeg" width="80" height="80" class="d-inline-block align-top"
                     alt="Thomas Hands Logo">
                 <h1>Thomas Hands Portfolio</h1>
@@ -50,7 +53,7 @@
             <!-- A jumbotron featuring your picture, your name, and any other information you'd like to include. -->
             <div class=" jumbotron row hero-banner">
                 <div class="col-sm-4 Portrait">
-                    <h2 class="hero-banner-title">Thomas Hands</h2>
+                    <h2 class="hero-banner-title subheading">Thomas Hands</h2>
                     <img src="./images/portrait.jpeg" alt="Portrait of Thomas Hands" class="img-fluid">
                     <div class="hero-banner-text">
                         <p class="lead">Fresher than a new born foul to the world of coding</p>
@@ -70,78 +73,98 @@
             <!-- If you need to use placeholder image use placehold.coLinks to an external site. -->
             <!-- Use Bootstrap cards for each project. The description should give a brief overview of the work. -->
             <div class="container-fuild">
-                <h2 class="mx-auto" id="work">Work</h2>
+                <h2 class="mx-auto subheading" id="work">Work</h2>
                 <div class="row">
+                    <!-- Card 1 -->
                     <div class="col-sm-4 card-1">
                         <div class="card mb-3">
-                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top"
+                                alt="Thomas Hands Logo">
                             <div class="card-body">
-                                <h5 class="card-title">Placeholder</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
+                                <h5 class="card-title">Reactor Code</h5>
+                                <p class="card-text">This was a reactor code project to create content acessible to all.
+                                </p>
+                                <a href="https://github.com/tjhandson/221209_code_reactor-project   "
+                                    class="btn btn-primary work-button">Let's See</a>
                             </div>
                         </div>
                     </div>
+                    <!-- Card 2 -->
                     <div class="col-sm-4">
                         <div class="card mb-3">
-                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top"
+                                alt="Thomas Hands Logo">
                             <div class="card-body">
                                 <h5 class="card-title">Placeholder</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-
+                                <p class="card-text">Don't Worry More Work is to come!Quicker that you think too!</p>
+                                <button href="#" class="btn btn-primary work-button-disabled" disabled>Hold your
+                                    Horses</button>
+                                <!-- button will need to be updated to <a> tag for href -->
                             </div>
                         </div>
                     </div>
+                    <!-- Card 3 -->
                     <div class="col-sm-4">
                         <div class="card mb-3">
-                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
+                            <img src="./images/Thomas Hands-logos_black.png" class="card-img-top"
+                                alt="Thomas Hands Logo">
                             <div class="card-body">
                                 <h5 class="card-title">Placeholder</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-
+                                <p class="card-text">Don't Worry More Work is to come!
+                                    Quicker that you think too!
+                                </p>
+                                <button href="#" class="btn btn-primary work-button-disabled" disabled>Hold your
+                                    Horses</button>
+                                <!-- button will need to be updated to <a> tag for href -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Card 4 - Second row -->
             <div class="row">
                 <div class="col-sm-4 card-1">
                     <div class="card mb-3">
                         <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Placeholder</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-
+                            <p class="card-text">Don't Worry More Work is to come!
+                                Quicker that you think too!
+                            </p>
+                            <button href="#" class="btn btn-primary work-button-disabled" disabled>Hold your
+                                Horses</button>
+                            <!-- button will need to be updated to <a> tag for href -->
                         </div>
                     </div>
                 </div>
+                <!-- Card 5 - Second row -->
                 <div class="col-sm-4">
                     <div class="card mb-3">
                         <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Placeholder</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to
-                                additional content. This content is a little bit longer.</p>
-
+                            <p class="card-text">Don't Worry More Work is to come!
+                                Quicker that you think too!
+                            </p>
+                            <button href="#" class="btn btn-primary work-button-disabled" disabled>Hold your
+                                Horses</button>
+                            <!-- button will need to be updated to <a> tag for href -->
                         </div>
                     </div>
                 </div>
+                <!-- Card 6 - Second row -->
                 <div class="col-sm-4">
                     <div class="card mb-3">
                         <img src="./images/Thomas Hands-logos_black.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Placeholder</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to
-                                additional content. This content is a little bit longer.</p>
-
+                            <p class="card-text">Don't Worry More Work is to come!
+                                Quicker that you think too! (for the fith time...)
+                                <!-- phrase will need updating with additonal projects added -->
+                            </p>
+                            <button href="#" class="btn btn-primary work-button-disabled" disabled>Hold your
+                                Horses</button>
+                            <!-- button will need to be updated to <a> tag for href -->
                         </div>
                     </div>
                 </div>
@@ -151,79 +174,65 @@
         <!-- Skills Section -->
         <section class="skills">
             <!-- List out the skills you expect to learn from the bootcamp. -->
-            <h2 id="skills">Skills</h2>
-            <h3>Across the bootcamp course I am looking to gain the skills in these key areas</h3>
-
+            <h2 class="subheading" id="skills">Skills</h2>
+            <p class="lead">Across the bootcamp course I am looking to gain the skills in these key areas</p>
+            <!-- This is a rigorous and fast-paced course that teaches the practical, technical skills that will enable you to build robust front-end web applications.
+Throughout the course, you will gain proficiency in numerous marketable technologies, including HTML, CSS, JavaScript, Node.js, and React. Additionally, you'll finish with an impressive professional portfolio and the confidence to succeed in a high-growth profession. -->
             <div class="accordion" id="accordionExample">
+                <!-- Card 1 -->
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
-                                HTML
+                                Front End Web Development
                             </button>
                         </h2>
                     </div>
-
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                         data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                            heard
-                            of them accusamus labore sustainable VHS.
+                            To build a solid foundation in fundamental concepts of web development: HTML, CSS with
+                            Bootstrap, React and Node.js To understand and impletiment front end applications to client
+                            specifictions,
+                            organising and mainitaining code to be future proof with any development or change in
+                            programmer.
                         </div>
                     </div>
                 </div>
+                <!-- Card 2 -->
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                 data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                CSS
+                                UX design Principles
                             </button>
                         </h2>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                            heard
-                            of them accusamus labore sustainable VHS.
+                            Through Test-driven Agile development, working collaboratively with client and team member
+                            to create Responsive User expereinces to further engagement with products, based on the
+                            needs of client capture.
                         </div>
                     </div>
                 </div>
+                <!-- Card 3 -->
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                                 data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                JAVASCRIPT
+                                Front End frameworks
                             </button>
                         </h2>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                         data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid.
-                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
-                            heard
-                            of them accusamus labore sustainable VHS.
+                            To Build modern web applications with industry-standard framework, Deloying web-based
+                            applications all while maintaining and manipulate page information to create interactivity.
                         </div>
                     </div>
                 </div>
@@ -231,64 +240,67 @@
         </section>
         <!-- About Me and Contact Me Section -->
         <section class="About-Contact-Me">
-            <!-- An About Me section in the same row. -->
             <div id="about me">
-                <div class="jumbotron jumbotron-fluid">
+                <div class="jumbotron-fluid about-me">
                     <div class="container">
-                        <h1 class="display-4">About Me</h1>
-                        <p class="lead"> Hi There, I'm Thomas Hands, New to the web Development game, but ready to hit
-                            the ground running.
-                            Originally from the Midlands and had a career in the Arts, Education, and am now a Data
-                            Coordinator.
-                            I
-                            am looking to branch out with my skills and interested in developing my understanding of
-                            front end
-                            development</p>
-                    </div>
-
-                    <div class="contact-me">
-                        <form action="mailto:tomhands@me.com" method="post" enctype="text/plain">
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h3 class="display-4 subheading">About Me</h3>
+                                <p class="lead"> Hi There, I'm Thomas Hands, New to the web Development game, but ready
+                                    to hit
+                                    the ground running.
+                                    Originally from the Midlands and had a career in the Arts, Education, and am now a
+                                    Data
+                                    Coordinator.
+                                    I
+                                    am looking to branch out with my skills and interested in developing my
+                                    understanding of
+                                    front end
+                                    development</p>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Name</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="John Smith">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">What are you emailing about?</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>Want to see more?</option>
-                                    <option>Want a quote on a project?</option>
-                                    <option>Have an Idea you would like to run by me?</option>
-                                    <option>General Question/Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Send it</button>
+                            <div class="col-sm-3">
+                                <div class="contact-me">
+                                    <nav aria-label="Contact Me buttons">
+                                        <div class="justify-content-center">
+                                            <h3 class="display-4 subheading">Contact Me</h3>
+                                        </div>
+                                        <div class="button-text">
+                                            </divclass>
+                                            <button type="button" class="btn btn-primary btn-lg contact-me-btn"
+                                                href="mailto:tomhands@me.com"><i
+                                                    class="fa-solid fa-envelope"></i></button>
+                                            <h4>Email</h4>
+                                        </div>
+                                        <div class="button-text">
+                                            <button type="button" class="btn btn-primary btn-lg contact-me-btn"
+                                                href="https://www.linkedin.com/in/thomas-hands/"><i
+                                                    class="fa-brands fa-linkedin"></i></button>
+                                            <h4>Linkedin</h4>
+                                        </div>
+                                        <div class="button-text">
+                                            <button type="button" class="btn btn-primary btn-lg contact-me-btn"><i
+                                                    class="fa-brands fa-github"></i></button>
+                                            <h4>Github</h4>
+                                        </div>
+                                    </nav>
                                 </div>
-                        </form>
-                    </div>
+                            </div>
+                        </div>
         </section>
 
     </main>
-    <footer class="footer">
-        <!-- All hyperlinks should have a hover effect. All buttons should display a box shadow upon hover. -->
-        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group mr-2" role="group" aria-label="First group">
-                <button type="button" class="btn btn-secondary" href="mailto:thomjhands@gmail.com"><i
-                        class="fa-sharp fa-solid fa-envelope"></i> </button>
-                <button type="button" class="btn btn-secondary" href="https://github.com/tjhandson"></button>>2</button>
-                <button type="button" class="btn btn-secondary" href="www.linkedin.com/in/thomas-hands">3</button>
-            </div>
+    <footer class="footer d-flex justify-content-center">
+        <div class="Footer">
+            <h4 class="subheading">© 2023</h4>
+            <nav aria-label="Footer buttons">
+                <button type="button" class="btn btn-primary btn-lg footer-btn" href="mailto:tomhands@me.com"><i
+                        class="fa-solid fa-envelope"></i></button>
+                <button type="button" class="btn btn-primary btn-lg footer-btn"
+                    href="https://www.linkedin.com/in/thomas-hands/"><i class="fa-brands fa-linkedin"></i></button>
+                <button type="button" class="btn btn-primary btn-lg footer-btn"><i
+                        class="fa-brands fa-github"></i></button>
+            </nav>
+        </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
